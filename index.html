@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Management System</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Parking Management System</h1>
+        <form id="parking-form">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="text" id="pl-num" placeholder="Plate Number" required>
+            <input type="text" id="carC" placeholder="Car Color" required>
+            <input type="tel" id="telNum" placeholder="Phone Number" required>
+            <button type="button" id="btn">Park</button>
+        </form>
+        <table id="myTable">
+            <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Plate Number</th>
+                    <th>Color</th>
+                    <th>Phone Number</th>
+                    <th>Check-in Time</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="./script.js""></script>
+</body>
+</html>
